@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%; 
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+a, img {
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+}
+
+#perfil {
+    border-radius: 50%;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#perfil:hover {
+    border: 2px solid rgb(116, 115, 115);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+} #logo {
+    margin: auto;
+    width: 272px;
+}
+
+.pesquisa {
+    border: 1px solid #dfe1e5;
+    border-radius: 50px;
+    display: flex;
+    width: 482px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.pesquisa input{
+    border: none;
+    margin-left: 20px;
+    outline: 0;
+    border-radius: 50px;
+    font-size: 15px;
+    width: 380px;
+}
+
+.botoes {
+    margin: 15px;
+}
+
+.botoes input {
+    width: 142px;
+    height: 36px;
+    border-radius:5px;
+    border: none;
+    background-color: #f3f3f3;
+    color: gray;
+}
+
+.botoes input:hover {
+    border:1px solid #dadada;
+    box-shadow: 0px 1px 0px #CCC;
+    color: black;
+}
